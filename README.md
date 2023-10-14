@@ -5,7 +5,7 @@ swaggerのお勉強用リポジトリ。APIのページは[こちら](https://yu
 このリポジトリではvscodeでswaggerを利用する。環境構築はdevcontainerで行っているので詳細は割愛。
 
 # 1. Hello World
-ここではとりあえず動かしてみるところまでやってみる。
+ここではとりあえず動かしてみるところまでやってみる。完成品は[ここ](https://yuasalily.github.io/swagger-sample/1HelloWorld/)で見られる。
 
 yamlファイルを作成する。名前はなんでもいいのでとりあえずswagger.yamlとする。出来たファイルに下記の内容を保存する。ここでは動かしてみるだけなので各要素の詳細は割愛する。保存出来たらShift + Alt + Pを押すことでSwagger Previewが表示される。
 ```
@@ -34,6 +34,7 @@ paths:
 ```
 npx @redocly/cli build-docs swagger.yaml && mv redoc-static.html docs/index.html
 ```
+今回作ったものを`docs/1HelloWorld`にコピーしておく。
 
 # メモ
 利用しているコマンドなどを列挙する。
