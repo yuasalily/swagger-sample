@@ -1,5 +1,5 @@
 {
-	"name": "Swagger Samples",
+	"name": "Swagger Sample",
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	"features": {
 		"ghcr.io/devcontainers/features/go:1": {},
