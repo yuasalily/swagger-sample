@@ -36,6 +36,10 @@ npx @redocly/cli build-docs swagger.yaml && mv redoc-static.html docs/index.html
 ```
 今回作ったものを`docs/1HelloWorld`にコピーしておく。
 
+# 2. OpenAPIオブジェクト
+APIの記述形式をOpenAPI Specificationと呼び、上で作ったswagger.yamlのような形式で記述していく（[参考](https://swagger.io/docs/specification/about/)）。これのルートオブジェクトをOpenAPIオブジェクトと呼ぶ。記述できるフィールドは[このページ](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md)に記載しているのでまとめていく。
+
+
 # メモ
 利用しているコマンドなどを列挙する。
 - Swagger Viewerの立ち上げ：Shift + Alt + P
