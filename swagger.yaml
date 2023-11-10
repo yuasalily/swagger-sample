@@ -16,6 +16,29 @@ info:
     url: "https://www.example.com/sample-license"
   version: "1.0.0"
 
+servers:
+  - url: "https://www.example.dev.com/{version}"
+    description: "Development Environment"
+    variables:
+      version:
+        description: "version"
+        enum: ["v1", "v2"]
+        default: "v1"
+  - url: "https://www.example.stg.com/{version}"
+    description: "Staging Environment"
+    variables:
+      version:
+        description: "version"
+        enum: ["v1", "v2"]
+        default: "v1"
+  - url: "https://www.example.com/{version}"
+    description: "Development Environment"
+    variables:
+      version:
+        description: "version"
+        enum: ["v1", "v2"]
+        default: "v1"
+
 paths:
   "/hello":
     get:
